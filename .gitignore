@@ -1,0 +1,99 @@
+# --- Dự án: IoT Asset Monitoring & Depreciation ---
+# --- Tối ưu cho STM32 và ESP32 ---
+
+# 1. Các file biên dịch (Compiled files - Tương đương với các bản nháp chi phí)
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+
+# 2. Thư mục rác của IDE (Build Folders)
+Debug/
+Release/
+bin/
+obj/
+.pio/
+build/
+
+# 3. STM32 Specific (CubeIDE, Keil, IAR)
+.settings/
+*.launch
+*.uvguix.*
+*.uvgui.*
+*.pbi
+*.pbd
+*.browse
+*.pbw
+*.dep
+*.uvoptx
+
+# 4. ESP32 & Arduino Specific
+.vscode/
+.gcc-flags.json
+.clangd
+node_modules/
+.pyc
+
+# 5. File cấu hình cá nhân (Tránh lộ mật khẩu WiFi/MQTT)
+# Nếu bạn để thông tin WiFi trong file riêng, hãy bỏ comment dòng dưới
+# secret.h
+# config.json
+
+# 6. OS rác (System Files)
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp# --- Dự án: IoT Asset Monitoring & Depreciation ---
+# --- Tối ưu cho STM32 và ESP32 ---
+
+# 1. Các file biên dịch (Compiled files - Tương đương với các bản nháp chi phí)
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+
+# 2. Thư mục rác của IDE (Build Folders)
+Debug/
+Release/
+bin/
+obj/
+.pio/
+build/
+
+# 3. STM32 Specific (CubeIDE, Keil, IAR)
+.settings/
+*.launch
+*.uvguix.*
+*.uvgui.*
+*.pbi
+*.pbd
+*.browse
+*.pbw
+*.dep
+*.uvoptx
+
+# 4. ESP32 & Arduino Specific
+.vscode/
+.gcc-flags.json
+.clangd
+node_modules/
+.pyc
+
+# 5. File cấu hình cá nhân (Tránh lộ mật khẩu WiFi/MQTT)
+# Nếu bạn để thông tin WiFi trong file riêng, hãy bỏ comment dòng dưới
+# secret.h
+# config.json
+
+# 6. OS rác (System Files)
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
